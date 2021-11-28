@@ -1,0 +1,8 @@
+Usar config.local en vez de global, para poner el remote, así queda sólo para el repositorio, creo que sirve.
+
+Necesito saber si se están usando o no las variables, que se están poniendo bien.
+
+Aparentemente no, porque git remote -v, muestra que las variables no se resuelven.
+
+Qzs voy a tener que usar un "for loop",  que probablemente lo haga... pero me frustra que no se pueda sin eso.
+Por ejemplo, si yo pongo "echo %v%", no tira %v%, sino que tira la variable como debe ser...
